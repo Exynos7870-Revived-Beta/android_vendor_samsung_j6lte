@@ -589,9 +589,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j6lte/proprietary/vendor/lib/vendor.samsung.hardware.light@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.light@3.0.so \
     vendor/samsung/j6lte/proprietary/vendor/etc/init/vendor.samsung.hardware.light@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.light@3.0-service.rc \
     vendor/samsung/j6lte/proprietary/vendor/bin/hw/vendor.samsung.hardware.light@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.light@3.0-service \
-    vendor/samsung/j6lte/proprietary/vendor/manifest.xml:$(TARGET_COPY_OUT_VENDOR)/manifest.xml \
-    vendor/samsung/j6lte/proprietary/vendor/etc/vintf/manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest.xml \
-    vendor/samsung/j6lte/proprietary/vendor/etc/vintf/compatibility_matrix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/compatibility_matrix.xml \
     vendor/samsung/j6lte/proprietary/vendor/etc/permissions/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml \
     vendor/samsung/j6lte/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/j6lte/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/wifi/wpa_supplicant_overlay.conf

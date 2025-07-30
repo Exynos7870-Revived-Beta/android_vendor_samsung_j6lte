@@ -6,3 +6,11 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/j6lte
 
 $(call inherit-product, vendor/samsung/j6lte/j6lte-vendor-blobs.mk)
+
+# VINTF Manifests
+DEVICE_MANIFEST_FILE += \
+    vendor/samsung/j6lte/proprietary/vendor/manifest.xml \
+    vendor/samsung/j6lte/proprietary/vendor/etc/vintf/manifest.xml
+
+DEVICE_MATRIX_FILE += \
+    vendor/samsung/j6lte/proprietary/vendor/etc/vintf/compatibility_matrix.xml
